@@ -6,8 +6,8 @@
     "flower",
     "monitor"
   ],
-  "website": "https://github.com/wli/celery-flower-heroku",
-  "repository": "https://github.com/wli/celery-flower-heroku",
+  "website": "https://github.com/mhgbrown/flower-heroku",
+  "repository": "https://github.com/mhgbrown/flower-heroku",
   "env": {
     "BROKER_URL": {
       "description": "Default broker URL.",
@@ -19,7 +19,7 @@
       "required": false
     },
     "FLOWER_OAUTH2_KEY": {
-      "description": "Oauth2 key. Required if using OAuth.",
+      "description": "Oauth2 key (aka Client ID). Required if using OAuth.",
       "value": "",
       "required": false
     },
